@@ -1,5 +1,75 @@
 body {
-    background-image: url('./assets/textura-de-fondo.webp');
+    background-image: url("./assets/textura-de-fondo.webp");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card-body ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.containerHeader h2, h1 {
+    filter: drop-shadow(30px 10px 4px #cfbaf0);
+}
+
+.photo {
+    border-radius: 100%;
+    width: 14rem;
+    padding: 0.25rem;
+    border-top: 5px solid #e1bee7;
+    border-bottom: 5px solid #e1bee7;
+    border-left: 5px solid #8e24aa;
+    border-right: 5px solid #8e24aa;
+}
+
+.image-hover {
+    transition: transform 0.3s ease;
+}
+
+.image-hover:hover {
+    transform: scale(0.9);
+}
+
+.sectionTech {
+    margin-bottom: 2rem;
+    background-color: #FFCFD2;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sectionTech h5 {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionTech:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.expPro {
+    background-color: #FDE4CF;
+}
+
+.contPort {
+    background-color: #F1C0E8;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.borde {
+    border-radius: 1rem;
 }
