@@ -17,7 +17,8 @@ body {
     gap: 1rem;
 }
 
-.containerHeader h2, h1 {
+.containerHeader h2,
+h1 {
     filter: drop-shadow(30px 10px 4px #cfbaf0);
 }
 
@@ -41,7 +42,7 @@ body {
 
 .sectionTech {
     margin-bottom: 2rem;
-    background-color: #FFCFD2;
+    background-color: #ffcfd2;
     padding: 1rem;
     border-radius: 8px;
     cursor: pointer;
@@ -61,15 +62,65 @@ body {
 }
 
 .expPro {
-    background-color: #FDE4CF;
+    background-color: #fde4cf;
 }
 
 .contPort {
-    background-color: #F1C0E8;
+    background-color: #f1c0e8;
     margin-bottom: 2rem;
     padding: 1rem;
 }
 
 .borde {
     border-radius: 1rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionAbout {
+    background-color: #fbf8cc;
+}
+
+.sectionEd {
+    background-color: #b9fbc0;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section2 {
+    width: 45%;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section:hover,
+.section2:hover,
+.sectionTech:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.sectionEdComp {
+    background-color: #98f5e1;
+}
+
+.sectionIdioma {
+    background-color: #90dbf4;
+}
+
+.sectionContact {
+    background-color: #cfbaf0;
 }
